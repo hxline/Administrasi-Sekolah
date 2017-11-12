@@ -1,0 +1,25 @@
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\bin\Debug\Laporan_Final.exe
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\bin\Debug\Laporan_Final.pdb
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.LaporanAdministrasi.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.Properties.Resources.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.exe
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.pdb
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\bin\Debug\Laporan_Final.exe.config
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.FormPembayaran.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.ReportPemabayaran.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.ReportPendaftaran.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.FormPendaftaran.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.ReportSurat.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.FormSurat.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.ReportTabungan.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.ReportTabunganKeluar.resources
+c:\users\akhinahasan\documents\visual studio 2010\Projects\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.FormTabungan.resources
+C:\Users\Handoyo\Documents\Laporan_Final\Laporan_Final\bin\Debug\Laporan_Final.exe.config
+C:\Users\Handoyo\Documents\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.exe
+C:\Users\Handoyo\Documents\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.pdb
+D:\Matkul\Semester 5\SBD\FinalAdministasiSekolah\Laporan_Final\Laporan_Final\bin\Debug\Laporan_Final.exe.config
+D:\Matkul\Semester 5\SBD\FinalAdministasiSekolah\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.exe
+D:\Matkul\Semester 5\SBD\FinalAdministasiSekolah\Laporan_Final\Laporan_Final\obj\x86\Debug\Laporan_Final.pdb

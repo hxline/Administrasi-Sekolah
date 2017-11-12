@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B592F7AB-2467-4DEE-86CD-5C97E1A44F45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Laporan_Final</RootNamespace>
+    <AssemblyName>Laporan_Final</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=7.0.13.220, Culture=neutral, PublicKeyToken=a9d7983dfcc261be" />
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=7.0.13.220, Culture=neutral, PublicKeyToken=a9d7983dfcc261be, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.ChartView, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.PdfViewer, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.PivotGrid, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadChart, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadMarkupEditor, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RichTextBox, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Scheduler, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.SpellChecker, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikData, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPembayaran.Designer.cs">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPendaftaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPendaftaran.Designer.cs">
+      <DependentUpon>FormPendaftaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSurat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSurat.Designer.cs">
+      <DependentUpon>FormSurat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTabungan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTabungan.Designer.cs">
+      <DependentUpon>FormTabungan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaporanAdministrasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaporanAdministrasi.Designer.cs">
+      <DependentUpon>LaporanAdministrasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportPemabayaran.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportPemabayaran.Designer.cs">
+      <DependentUpon>ReportPemabayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPendaftaran.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportPendaftaran.Designer.cs">
+      <DependentUpon>ReportPendaftaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSurat.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportSurat.Designer.cs">
+      <DependentUpon>ReportSurat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportTabungan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportTabungan.Designer.cs">
+      <DependentUpon>ReportTabungan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportTabunganKeluar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportTabunganKeluar.Designer.cs">
+      <DependentUpon>ReportTabunganKeluar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormPembayaran.resx">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPendaftaran.resx">
+      <DependentUpon>FormPendaftaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSurat.resx">
+      <DependentUpon>FormSurat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTabungan.resx">
+      <DependentUpon>FormTabungan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaporanAdministrasi.resx">
+      <DependentUpon>LaporanAdministrasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReportPemabayaran.resx">
+      <DependentUpon>ReportPemabayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPendaftaran.resx">
+      <DependentUpon>ReportPendaftaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSurat.resx">
+      <DependentUpon>ReportSurat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportTabungan.resx">
+      <DependentUpon>ReportTabungan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportTabunganKeluar.resx">
+      <DependentUpon>ReportTabunganKeluar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
